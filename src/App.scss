@@ -1,1 +1,11 @@
+@import "./assets/sass/reset";
 @import "./assets/sass/config";
+
+html,
+body {
+  height: 100%;
+}
+
+.scroll-item {
+  height: 100vh;
+}
