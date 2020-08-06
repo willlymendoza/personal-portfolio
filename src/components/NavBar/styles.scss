@@ -1,0 +1,22 @@
+@import "../../assets/sass/config";
+
+.nav-bar {
+  &-menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+
+    li {
+      list-style: none;
+      font-size: 22px;
+      text-transform: uppercase;
+      margin-left: 47px;
+
+      a {
+        text-decoration: none;
+        color: $white;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../assets/sass/config";
+
+.header {
+  background: url("/header-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 800px;
+  height: 100%;
+}
+
+.header-content {
+  max-width: 1630px;
+  height: 100%;
+  margin: 0 auto;
+  color: $white;
+}

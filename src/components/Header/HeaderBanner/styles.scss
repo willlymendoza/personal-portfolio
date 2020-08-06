@@ -1,0 +1,42 @@
+@import "../../../assets/sass/config";
+
+.header-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 100px);
+
+  h1,
+  h2 {
+    font-family: "Roboto Slab", sans-serif;
+  }
+
+  h1 {
+    font-size: 65px;
+
+    span {
+      color: $secondary;
+    }
+  }
+
+  h2 {
+    font-size: 30px;
+    color: $gray;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  &-socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    a {
+      color: $white;
+      font-size: 47px;
+      margin: 0 15px;
+    }
+  }
+}
