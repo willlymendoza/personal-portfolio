@@ -5,12 +5,12 @@ import "./styles.scss";
 
 const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
       <div className="header-content">
         <HeaderMain />
         <HeaderBanner />
       </div>
-    </div>
+    </header>
   );
 };
 
