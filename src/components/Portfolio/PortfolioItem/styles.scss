@@ -6,9 +6,17 @@
   max-width: 600px;
 
   &-img {
+    position: relative;
+    overflow: hidden;
     img {
       width: 100%;
       border-radius: 5px;
+    }
+
+    &:hover {
+      .portfolio-content-item-overlay {
+        transform: translateY(0);
+      }
     }
   }
 
@@ -43,4 +51,40 @@
       }
     }
   }
+}
+
+.portfolio-content-item-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: $secondary;
+  transform: translateY(100%);
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.95;
+
+  a {
+    padding: 10px;
+    color: $white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid $white;
+    text-decoration: none;
+
+    &:hover {
+      background: $gray;
+    }
+  }
+}
+
+.portfolio-content-item-description {
+  padding: 10px;
+  text-align: justify;
+  color: white;
+  font-size: 17px;
+  font-weight: 100;
 }

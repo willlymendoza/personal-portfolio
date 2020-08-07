@@ -1,10 +1,14 @@
 import React from "react";
 import "./styles.scss";
 
-const PortfolioItem = ({ imageUrl, languages }) => {
+const PortfolioItem = ({ imageUrl, languages, description }) => {
   return (
     <div className="portfolio-content-item">
       <div className="portfolio-content-item-img">
+        <div class="portfolio-content-item-overlay">
+          <p class="portfolio-content-item-description">{description}</p>
+          <a href="#">Preview</a>
+        </div>
         <img src={imageUrl} alt="doctor_appointments" />
       </div>
       <div className="languages">
