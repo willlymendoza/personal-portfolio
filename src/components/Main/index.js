@@ -9,8 +9,8 @@ const index = () => {
   return (
     <main className="main">
       <div className="main-content">
-        <About />
         <Portfolio />
+        <About />
         <Resume />
         <Contact />
       </div>

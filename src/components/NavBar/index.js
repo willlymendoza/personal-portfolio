@@ -7,13 +7,13 @@ const NavBar = ({ openMenu, handleOpenMenu }) => {
     <nav className={`nav-bar ${openMenu ? "open" : ""}`}>
       <ul className="nav-bar-menu">
         <li>
-          <Link to="about" smooth={true} onClick={handleOpenMenu}>
-            about
+          <Link to="portfolio" smooth={true} onClick={handleOpenMenu}>
+            portfolio
           </Link>
         </li>
         <li>
-          <Link to="portfolio" smooth={true} onClick={handleOpenMenu}>
-            portfolio
+          <Link to="about" smooth={true} onClick={handleOpenMenu}>
+            about
           </Link>
         </li>
         <li>
