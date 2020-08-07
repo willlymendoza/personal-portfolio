@@ -11,10 +11,13 @@ const Contact = () => {
       </h3>
 
       <div className="contact-socials">
-        <a href="#">
+        <a href="mailto:wyllmh5@gmail.com">
           <i className="fa fa-envelope"></i>
         </a>
-        <a href="#">
+        <a
+          href="https://www.linkedin.com/in/willian-mendoza-75387a16b/"
+          target="_blank"
+        >
           <i className="fab fa-linkedin"></i>
         </a>
       </div>

@@ -9,13 +9,16 @@ const HeaderBanner = () => {
       </h1>
       <h2>SOFTWARE ENGINEER</h2>
       <div className="header-banner-socials">
-        <a href="#">
+        <a href="https://github.com/willlymendoza" target="_blank">
           <i className="fab fa-github"></i>
         </a>
-        <a href="#">
+        <a
+          href="https://www.linkedin.com/in/willian-mendoza-75387a16b/"
+          target="_blank"
+        >
           <i className="fab fa-linkedin"></i>
         </a>
-        <a href="#">
+        <a href="mailto:wyllmh5@gmail.com">
           <i className="fa fa-envelope"></i>
         </a>
       </div>
