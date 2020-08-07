@@ -12,12 +12,14 @@ const HeaderBanner = () => {
         <a
           href="https://github.com/willlymendoza?tab=repositories"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i className="fab fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/willian-mendoza-75387a16b/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin"></i>
         </a>

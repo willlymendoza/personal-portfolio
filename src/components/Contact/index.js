@@ -17,6 +17,7 @@ const Contact = () => {
         <a
           href="https://www.linkedin.com/in/willian-mendoza-75387a16b/"
           target="_blank"
+          rel="noopener noreferrer"
         >
           <i className="fab fa-linkedin"></i>
         </a>

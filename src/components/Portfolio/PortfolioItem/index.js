@@ -18,7 +18,7 @@ const PortfolioItem = ({ imageUrl, languages, description, link }) => {
           <div key={language.label} className="languages-content">
             <label>
               {language.label}
-              <a href={language.link} target="_blank">
+              <a href={language.link} target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
             </label>
