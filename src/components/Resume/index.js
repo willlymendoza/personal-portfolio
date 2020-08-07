@@ -3,14 +3,14 @@ import "./styles.scss";
 
 const Resume = () => {
   return (
-    <div id="resume" class="resume">
-      <h1 class="title">Resume</h1>
-      <div class="resume-links">
+    <div id="resume" className="resume">
+      <h1 className="title">Resume</h1>
+      <div className="resume-links">
         <a href="#">
-          Resume EN <i class="fa fa-download"></i>
+          Resume EN <i className="fa fa-download"></i>
         </a>
         <a href="#">
-          Resume ES <i class="fa fa-download"></i>
+          Resume ES <i className="fa fa-download"></i>
         </a>
       </div>
     </div>
