@@ -2,6 +2,7 @@ import React from "react";
 import "./styles.scss";
 import Portfolio from "components/Portfolio";
 import About from "components/About";
+import Resume from "components/Resume";
 
 const index = () => {
   return (
@@ -9,6 +10,7 @@ const index = () => {
       <div className="main-content">
         <About />
         <Portfolio />
+        <Resume />
       </div>
     </main>
   );
