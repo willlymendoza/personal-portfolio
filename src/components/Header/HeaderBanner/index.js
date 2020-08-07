@@ -9,7 +9,10 @@ const HeaderBanner = () => {
       </h1>
       <h2>SOFTWARE ENGINEER</h2>
       <div className="header-banner-socials">
-        <a href="https://github.com/willlymendoza" target="_blank">
+        <a
+          href="https://github.com/willlymendoza?tab=repositories"
+          target="_blank"
+        >
           <i className="fab fa-github"></i>
         </a>
         <a
