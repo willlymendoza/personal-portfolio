@@ -1,0 +1,29 @@
+@import "../../assets/sass/config";
+
+.footer {
+  background: $primary;
+  height: 150px;
+
+  &-content {
+    height: 100%;
+    max-width: 1630px;
+    margin: 0 auto;
+    color: $white;
+
+    &-name {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+      h2 {
+        font-size: 30px;
+      }
+
+      h3 {
+        font-size: 20px;
+      }
+    }
+  }
+}
