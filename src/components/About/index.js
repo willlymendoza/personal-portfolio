@@ -12,9 +12,12 @@ const About = () => {
       <div className="about-me">
         <SubTitle title="me" />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
-          culpa officiis quo quia saepe quae earum ea enim nam inventore quidem
-          error accusamus minus odit, atque quibusdam libero voluptas deleniti.
+          Since I started in the programming world, I've been working and
+          learning new things in every experience I've had, and the best part is
+          that I love it. Working by myself as a freelancer and with colleagues
+          has given to me a good view of being a software developer and how is
+          the feeling and responsibility of wearing different hats in a software
+          development process.
         </p>
       </div>
 
@@ -28,13 +31,23 @@ const About = () => {
             },
             {
               label: "FRONT-END",
-              items: ["node js", "express js", "php/laravel"],
+              items: [
+                "html",
+                "css & sass",
+                "jquery",
+                "react js",
+                "redux js",
+                "vue js",
+              ],
             },
             {
               label: "DATA BASES",
-              items: ["node js", "express js", "php/laravel"],
+              items: ["mysql", "mongodb"],
             },
-            { label: "TOOLS", items: ["node js", "express js", "php/laravel"] },
+            {
+              label: "TOOLS",
+              items: ["git", "github", "postman", "vscode", "netlify", "npm"],
+            },
           ]}
         />
       </div>
