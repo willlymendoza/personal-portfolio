@@ -3,6 +3,7 @@ import "./styles.scss";
 import Portfolio from "components/Portfolio";
 import About from "components/About";
 import Resume from "components/Resume";
+import Contact from "components/Contact";
 
 const index = () => {
   return (
@@ -11,6 +12,7 @@ const index = () => {
         <About />
         <Portfolio />
         <Resume />
+        <Contact />
       </div>
     </main>
   );
