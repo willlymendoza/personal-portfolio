@@ -1,0 +1,46 @@
+@import "../../../assets/sass/config";
+
+.portfolio-content-item {
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 600px;
+
+  &-img {
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+  }
+
+  .languages {
+    margin-top: 10px;
+
+    &-content {
+      color: $primary;
+      margin-bottom: 10px;
+
+      label {
+        font-family: "Roboto Slab";
+        font-weight: bold;
+        text-transform: uppercase;
+
+        a {
+          color: $primary;
+          font-size: 25px;
+          position: absolute;
+          margin-top: -6px;
+          margin-left: 10px;
+        }
+      }
+
+      ul {
+        margin-top: 10px;
+        li {
+          display: inline-block;
+          margin-right: 10px;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
