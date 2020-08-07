@@ -14,9 +14,19 @@ const Portfolio = () => {
         relevant information about them."
           imageUrl="https://tpss.s3.amazonaws.com/doctors_appointments.png"
           languages={[
-            { label: "Front-end", items: ["html", "css", "react", "redux"] },
-            { label: "Back-end", items: ["node js", "express js", "mongodb"] },
+            {
+              label: "Front-end",
+              items: ["html", "css", "react", "redux"],
+              link:
+                "https://github.com/willlymendoza/doctor_appointments_front_end",
+            },
+            {
+              label: "Back-end",
+              items: ["node js", "express js", "mongodb"],
+              link: "https://github.com/willlymendoza/doctor_appointments",
+            },
           ]}
+          link="https://doctor-appointments.netlify.app/"
         />
       </div>
     </div>
