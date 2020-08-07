@@ -7,7 +7,7 @@ const Contact = () => {
       <h1 className="title">Contact</h1>
       <h2>Let's get in touch</h2>
       <h3>
-        You can send me an email or a direct message to my linkedin profile
+        You can send me an email or a direct message to my linkedin profile.
       </h3>
 
       <div className="contact-socials">
