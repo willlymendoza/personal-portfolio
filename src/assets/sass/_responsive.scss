@@ -38,7 +38,7 @@
   .nav-bar {
     visibility: hidden;
     transform: translateY(-100%);
-    position: fixed;
+    position: absolute !important;
     width: 100%;
     right: 0;
     top: 0;
@@ -46,12 +46,18 @@
     z-index: 5;
     transition: all 0.7s ease;
 
-    .menu {
-      flex-direction: column;
-      margin-top: 50px;
+    &-menu {
+      flex-direction: column !important;
+      margin-top: 50px !important;
 
       li {
         margin: 0 0 15px 0 !important;
+
+        a {
+          &:hover {
+            color: $primary !important;
+          }
+        }
       }
     }
 
