@@ -7,7 +7,7 @@ const HeaderBanner = () => {
       <h1>
         <span>HI,</span> I'M WILLIAN MENDOZA
       </h1>
-      <h2>SOFTWARE ENGINEER</h2>
+      <h2>FULL-STACK DEVELOPER</h2>
       <div className="header-banner-socials">
         <a
           href="https://github.com/willlymendoza?tab=repositories"
