@@ -1,20 +1,22 @@
 import React from "react";
 import "./styles.scss";
 
-const PortfolioItem = ({ imageUrl, languages, description, link }) => {
+const PortfolioItem = ({ data }) => {
   return (
     <div className="portfolio-content-item">
       <div className="portfolio-content-item-img">
         <div className="portfolio-content-item-overlay">
-          <p className="portfolio-content-item-description">{description}</p>
-          <a href={link} target="_blank" rel="noopener noreferrer">
+          <p className="portfolio-content-item-description">
+            {data.description}
+          </p>
+          <a href={data.link} target="_blank" rel="noopener noreferrer">
             Preview
           </a>
         </div>
-        <img src={imageUrl} alt="doctor_appointments" />
+        <img src={data.img} alt="doctor_appointments" />
       </div>
       <div className="languages">
-        {languages.map((language) => (
+        {data.languages.map((language) => (
           <div key={language.label} className="languages-content">
             <label>
               {language.label}

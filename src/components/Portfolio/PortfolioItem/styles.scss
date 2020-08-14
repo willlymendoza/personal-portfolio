@@ -1,5 +1,11 @@
 @import "../../../assets/sass/config";
 
+.portfolio-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
 .portfolio-content-item {
   overflow: hidden;
   margin: 0 auto;
