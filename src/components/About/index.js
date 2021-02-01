@@ -1,8 +1,8 @@
-import React from "react";
-import "./styles.scss";
-import PageTitle from "components/PageTitle";
-import SubTitle from "components/SubTitle";
-import AboutSkillsContainer from "./AboutSkillsContainer";
+import React from 'react';
+import './styles.scss';
+import PageTitle from 'components/PageTitle';
+import SubTitle from 'components/SubTitle';
+import AboutSkillsContainer from './AboutSkillsContainer';
 
 const About = () => {
   return (
@@ -26,27 +26,37 @@ const About = () => {
         <AboutSkillsContainer
           skills={[
             {
-              label: "BACK-END",
-              items: ["node js", "express js", "php/laravel"],
+              label: 'BACK-END',
+              items: ['node js', 'express js', 'php/laravel'],
             },
             {
-              label: "FRONT-END",
+              label: 'FRONT-END',
               items: [
-                "html",
-                "css & sass",
-                "jquery",
-                "react js",
-                "redux js",
-                "vue js",
+                'react js',
+                'redux js',
+                'typescript',
+                'jest/enzyme (unit testing)',
+                'html',
+                'css & sass',
+                'jquery',
+                'vue js',
               ],
             },
             {
-              label: "DATA BASES",
-              items: ["mysql", "mongodb"],
+              label: 'DATA BASES',
+              items: ['mysql', 'mongodb'],
             },
             {
-              label: "TOOLS",
-              items: ["git", "github", "postman", "vscode", "netlify", "npm"],
+              label: 'TOOLS',
+              items: [
+                'git',
+                'github',
+                'jira/confluence',
+                'postman',
+                'vscode',
+                'netlify',
+                'npm',
+              ],
             },
           ]}
         />
